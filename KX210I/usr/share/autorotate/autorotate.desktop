@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Autorotate
-Exec=bash /usr/share/autorotate/rotate.sh
-Type=Application
-Terminal=false
