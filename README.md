@@ -5,7 +5,7 @@
 This gives more chances that live mode and installing will start properly and wifi, bluetooth and sound will work OOTB
 * Clone this repo and insert files in their locations on your system
 * Reboot
-* sudo apt-get install inotify-tools` to make rotate.sh work
+* sudo `apt-get install inotify-tools` to make rotate.sh work
 * Try `sudo /usr/share/autorotate/rotate.sh` (then add this script to autostart)
 * To make sure touchscreen works fine, use `xinput_calibratior` and modify `usr/share/X11/xorg.conf.d/99-calibration.conf`
 
