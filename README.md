@@ -14,9 +14,9 @@ This gives more chances that live mode and installing will start properly and wi
 * Touchscreen issues after modifing `rotate.sh` -> swap (or change) coordinate transformation matrices
 
 ## Additions and References
-* Tested on Mint 19.03 Xfce (Upgraded to 20.03 Xfce), respin command:
+* Tested on Mint 19.03 Xfce and 20.03 Xfce (21.1 gives error: normal.mod not found)
+* Respin command:
 `./isorespinner.sh -i mint.iso -b GRUB-32 -l rtl8723bt_4.12.0_amd64.deb -f linuxium-install-UCM-files.sh -f wrapper-linuxium-install-UCM-files.sh -f linuxium-install-broadcom-drivers.sh -f wrapper-linuxium-install-broadcom-drivers.sh -c wrapper-linuxium-install-UCM-files.sh -c wrapper-linuxium-install-broadcom-drivers.sh`
-* Hopefully, with linux kernel 6.4. touchscreen will work OOTB 
 
 * https://linuxiumcomau.blogspot.com/
 * https://github.com/znoxx/mint-tw52
