@@ -6,12 +6,11 @@ This gives more chances that live mode and installing will start properly and wi
 * Clone this repo and insert files in their locations on your system
 * Reboot
 * `sudo apt-get install inotify-tools` to make rotate.sh work
-* Try `sudo /usr/share/autorotate/rotate.sh` (then add this script to autostart)
-* To make sure touchscreen works fine, use `xinput_calibratior` and modify `usr/share/X11/xorg.conf.d/99-calibration.conf`
+* Try rotate.sh (then add to autostart)
 
 ## Debug
 * Wrong screen rotations -> change actions in `/usr/share/autorotate/rotate.sh`
-* Touchscreen issues after modifing `rotate.sh` -> swap (or change) coordinate transformation matrices
+* Touchscreen issues after modifing rotate.sh -> swap (or change) coordinate transformation matrices
 
 ## Additions and References
 * Tested on Mint 19.03 Xfce and 20.03 Xfce (With upgrades to 21 and 21.1)
