@@ -14,7 +14,7 @@ This gives more chances that live mode and installing will start properly and wi
 
 ## Additions and References
 * Tested on Mint 19.03 Xfce and 20.03 Xfce (With upgrades to 21 and 21.1)
-* Kernel 5.19 can't load successfully so far, but 5.15 works good 
+* So far 5.19 kernel doesnt't load successfully, 5.15 works fine
 * Respin command:
 `./isorespinner.sh -i mint.iso -b GRUB-32 -l rtl8723bt_4.12.0_amd64.deb -f linuxium-install-UCM-files.sh -f wrapper-linuxium-install-UCM-files.sh -f linuxium-install-broadcom-drivers.sh -f wrapper-linuxium-install-broadcom-drivers.sh -c wrapper-linuxium-install-UCM-files.sh -c wrapper-linuxium-install-broadcom-drivers.sh`
 
