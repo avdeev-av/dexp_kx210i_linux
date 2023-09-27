@@ -26,11 +26,5 @@ This gives more chances that live mode and installing will start properly and wi
 ## Tips
 * For typing you can use onboard, customizable on-screen keyboard (apt install onboard)
 * In thunar file manager and desktop you can turn on opening in one click (tap in this case). Thunar -> edit -> preferences -> behavior. Right click on desktop -> desktop settings -> icons
-* In firefox you can install extension ScroolAnywhere, enable left click scroll and "smartphone style"
-
-## Usecases (tbf, idk)
-* Samba server for documents (wifi isn't so good and only one usb port)
-* Retrogaming (again, only one usb port for charging and keyboard)
-* Web surfing (maybe)
-* Audio/Video - Speaker/Screen is weak
-* Anything else - hard to find. CPU is weak, RAM is slow and 2gb is not enough
+* To enable gestures you can install touchegg https://github.com/JoseExposito/touchegg
+* Firefox touchscreen mode: open '/etc/security/pam_env.conf' add MOZ_USE_XINPUT2 DEFAULT=1 and reboot
